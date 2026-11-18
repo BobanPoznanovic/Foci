@@ -1,0 +1,16 @@
+# Unreal Engine generated directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.xcodeproj
+*.xcworkspace
+CMakeLists.txt
+build/
