@@ -3,7 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "Gameplay/FociFootballerCharacter.h"
 #include "InputActionValue.h"
 #include "FociCharacter.generated.h"
 
@@ -15,7 +15,7 @@ class UInputAction;
  * Playable Character for Foci with Third-Person Camera and Enhanced Input bindings.
  */
 UCLASS(config=Game)
-class FOCI_API AFociCharacter : public ACharacter
+class FOCI_API AFociCharacter : public AFociFootballerCharacter
 {
 	GENERATED_BODY()
 
